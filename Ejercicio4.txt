@@ -1,0 +1,10 @@
+Proceso
+	var numero
+	var cuadrado
+	var cubo
+	Escribir "Ingresa un numero"
+	Leer numero
+	cuadrado <- numero*numero
+	cubo <- numero*numero*numero
+	Escribir "Es cuadrado de " + numero + " es " + cuadrado + " y el cubo es " + cubo
+FinProceso
