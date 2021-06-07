@@ -1,0 +1,9 @@
+Proceso
+	var numero
+	var aumento
+	numero <- Aleatorio(0,200)
+	aumento <- (numero*0.3) + numero
+	Escribir "El numero es " + numero
+	Escribir "El numero aumentado es " + aumento
+FinProceso
+	
