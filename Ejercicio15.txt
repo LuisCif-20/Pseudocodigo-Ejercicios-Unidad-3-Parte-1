@@ -1,0 +1,14 @@
+Proceso
+	var numero
+	Escribir "Ingresa un numero"
+	Leer numero
+	Si numero = 0
+		Escribir "El numero es nulo"
+	Sino
+		Si numero > 0
+			Escribir "El numero es positivo"
+		Sino
+			Escribir "El numero es negativo"
+		FinSi
+	FinSi
+FinProceso
