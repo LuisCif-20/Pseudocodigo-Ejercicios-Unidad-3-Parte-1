@@ -1,0 +1,15 @@
+Proceso
+	var altura
+	var base
+	var perimetro
+	var area
+	Escribir "Ingrese la base"
+	Leer base
+	Escribir "Ingrese la altura"
+	Leer altura
+	perimetro <- 2*altura + 2*base
+	area <- altura*base
+	Escribir "El perimetro es " + perimetro
+	Escribir "El area es " + area
+
+FinProceso
