@@ -1,0 +1,14 @@
+Proceso
+	var palabraA
+	var palabraB
+	var aux
+	Escribir "Ingrese una palabra"
+	Leer palabraA
+	Escribir "Ingrese otra palabra"
+	Leer palabraB
+	aux <- palabraB
+	palabraB <- palabraA
+	palabraA <- aux
+	Escribir "Las palabras son " + palabraA + " y " + palabraB
+	
+FinProceso
