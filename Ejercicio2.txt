@@ -1,0 +1,9 @@
+Proceso
+	var pais
+	var capital
+	Escribir "Ingresa el país"
+	Leer pais
+	Escribir "Ingresa la capital"
+	Leer capital
+	Escribir capital + " es la capital de " + pais
+FinProceso
