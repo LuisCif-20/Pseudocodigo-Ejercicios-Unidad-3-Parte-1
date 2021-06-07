@@ -1,0 +1,22 @@
+Proceso
+	var numero
+	var d1
+	var d2
+	var d4
+	var d5
+	Escribir "Ingrese un numero de 5 digitos"
+	Leer numero
+	Si numero > 99999  & numero < 10000
+		Escribir "No es lo que se le solicito"
+	Sino
+		d1 = Subcadena(numero, 0,1)
+		d2 = Subcadena(numero, 1,1)
+		d4 = Subcadena(numero, 3,1)
+		d5 = Subcadena(numero, 4,1)
+	FinSi
+	Si d1 = d5 & d2 = d4
+		Escribir "Es capicua" 
+	Sino
+		Escribir "No es capicua"
+	FinSi
+FinProceso
