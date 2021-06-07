@@ -1,0 +1,8 @@
+Proceso
+	var tempC
+	var tempF
+	Escribir "Ingresa una temperatura en grados Celcius"
+	Leer tempC
+	tempF <- (tempC*9/5)+32
+	Escribir "La temperatura en grados Fahrenheit es " + tempF
+FinProceso
