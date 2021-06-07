@@ -1,0 +1,8 @@
+Proceso
+	var numero
+	var siguiente
+	Escribir "Ingresa un numero"
+	Leer numero
+	siguiente <- numero + 1
+	Escribir "El siguiente numero es " + siguiente
+FinProceso
