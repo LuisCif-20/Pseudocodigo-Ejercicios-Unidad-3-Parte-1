@@ -1,0 +1,16 @@
+Proceso
+	var numero1
+	var numero2
+	var residuo
+	Escribir "Ingrese un numero"
+	Leer numero1
+	Escribir "Ingrese otro numero"
+	Leer numero2
+	residuo<- mod(numero2, numero1)
+	Si residuo = 0
+		Escribir "Si es divisible"
+	Sino
+		Escribir "No es divisible"
+	FinSi
+	
+FinProceso
