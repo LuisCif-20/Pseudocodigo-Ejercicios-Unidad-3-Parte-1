@@ -1,0 +1,24 @@
+Proceso
+	var numero1
+	var numero2
+	var numero3
+	Escribir "Ingrese un numero"
+	Leer numero1
+	Escribir "Ingrese otro numero"
+	Leer numero2
+	Escribir "Ingrese otro numero"
+	Leer numero3
+	Si numero1 > numero2
+		Si numero1 > numero3
+			Escribir "El numero mayor es " + numero1
+		Sino
+			Escribir "El numero mayor es " + numero3
+		FinSi
+	Sino
+		Si numero2 > numero3
+			Escribir "El numero mayor es " + numero2
+		Sino
+			Escribir "El numero mayor es " + numero3
+		FinSi
+	Finsi
+FinProceso
