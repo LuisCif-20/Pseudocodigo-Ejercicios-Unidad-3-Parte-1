@@ -1,0 +1,15 @@
+Proceso
+	var numero
+	var residuo
+	numero <- Aleatorio(1,1000)
+	residuo <- MOD(numero, 5)
+	Si residuo = 0
+		Si numero < 26
+			Escribir "Correcto"
+		Sino
+			Escribir "Incorrecto"
+		FinSi
+	Sino
+		Escribir "Incorrecto"
+	FinSi
+FinProceso
