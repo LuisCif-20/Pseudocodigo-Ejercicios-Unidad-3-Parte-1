@@ -1,0 +1,21 @@
+Proceso
+	var PI
+	var radio
+	var altura
+	var volumen
+	PI <- 3.1416
+	Escribir "Ingresa el radio"
+	Leer radio
+	Si radio > 0
+		Escribir "Ingrese la altura"
+		Leer altura
+		Si altura > 0
+			volumen <- PI*radio*radio*altura
+			Escribir "El volumen es " + volumen
+		Sino
+			Escribir "La altura es negativa"
+		Finsi
+	Sino
+		Escribir "Ingresa un radio positivo"
+	Finsi
+FinProceso
