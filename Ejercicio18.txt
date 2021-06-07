@@ -1,0 +1,42 @@
+Proceso
+	var numero
+	var d1
+	var d2
+	var d3
+	var d3
+	var suma
+	Escribir "Ingresa un numero no mayor a 4 digitos"
+	Leer numero
+	Si numero > 9999
+		Escribir "EL numero es mayor a 4 digitos"
+	Sino
+		Si numero > 1000
+			d1 <- Subcadena(0,1)
+			d2 <- Subcadena(1,1)
+			d3 <- Subcadena(2,1)
+			d4 <- Subcadena(3,1)
+		Sino
+			Si numero > 100
+				d1 <- 0
+				d2 <- Subcadena(0,1)
+				d3 <- Subcadena(1,1)
+				d4 <- Subcadena(2,1)
+			Sino
+				Si numero > 10
+					d1 <- 0
+					d2 <- 0
+					d3 <- Subcadena(0,1)
+					d4 <- Subcadena(1,1)
+				Sino
+					d1 <- 0
+					d2 <- 0
+					d3 <- 0
+					d4 <- Subcadena(0,1)
+ 				Finsi
+			Finsi
+		Finsi
+	FinSi
+	Escribir "d1: " + d1 + " d2: " + d2 + " d3: " + d3 + " d4: " + d4
+	suma <- d1 + d2 + d3 + d4
+	Escribir "La suma es " + suma
+FinProceso
