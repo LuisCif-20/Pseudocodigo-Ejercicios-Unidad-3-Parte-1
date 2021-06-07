@@ -1,0 +1,15 @@
+Proceso
+	var magnitud
+	var yardas
+	var metros
+	var pies
+	var pulg
+	Escribir "Ingresa un numero en centimetros"
+	Leer magnitud
+	yardas <- magnitud*0.0109361
+	metros <- magnitud/100
+	pies <- magnitud*0.984252
+	pulg <- magnitud/2.54
+	Escribir magnitud + " centimetros es equivalente a "
+	Escribir yardas + " yardas, " + metros + " metros, " + pies + " pies, " + pulg + " pulgadas"
+FinProceso
