@@ -1,0 +1,8 @@
+Proceso
+	var numero
+	var reducir
+	numero <- Aleatorio(10,50)
+	reducir <- numero - (numero*0.15)
+	Escribir "El numero es " + numero
+	Escribir "Su disminucion es " + reducir
+FinProceso
